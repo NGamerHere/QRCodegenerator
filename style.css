@@ -1,0 +1,53 @@
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+}
+#forms{
+    padding: 10px;
+}
+body {
+    text-align: center;
+    background-color: #C2DEDC;
+}
+#qrimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+.middle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.link{
+    font-weight: bold;
+    right: 10px;
+}
+.link li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer-content p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.link li a{
+    text-decoration: none;
+    color: #333;
+}
+.link a:hover{
+    text-decoration: underline;
+}

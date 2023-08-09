@@ -17,6 +17,7 @@ function k() {
     var subText = document.getElementById("myInput");
     var url = subText.value;
     var qrPlacer=document.getElementById("qrimage");
+    qrPlacer.innerHTML = "";
     var qrcode=new QRCode(qrPlacer,{
         text: url,
         width: 256,
